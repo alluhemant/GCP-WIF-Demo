@@ -1,5 +1,5 @@
 resource "google_storage_bucket" "tf_state" {
-  name          = "tf-wif-000"
+  name          = "tfhemantallukumar-wif-6362"
   location      = "us-central1"
   project       = "graphite-hook-463719-j9"
   force_destroy = true
@@ -7,7 +7,7 @@ resource "google_storage_bucket" "tf_state" {
 }
 
 resource "google_storage_bucket" "my-bucket" {
-  name          = "bkt-demo-000"
+  name          = "bkthemantallukumar-demo-3837"
   location      = "us-central1"
   project = "graphite-hook-463719-j9"
   force_destroy = true
@@ -15,7 +15,7 @@ resource "google_storage_bucket" "my-bucket" {
 }
 
 resource "google_storage_bucket" "my-bucket2" {
-  name          = "bkt-demo-002"
+  name          = "bkthemantallukumar-demo-37"
   location      = "us-central1"
   project = "graphite-hook-463719-j9"
   force_destroy = true
